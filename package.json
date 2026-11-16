@@ -1,0 +1,30 @@
+{
+  "name": "authlog-analyzer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "gen": "tsx src/cli/generate.ts",
+    "analyze": "tsx src/cli/analyze.ts",
+    "evaluate": "tsx src/cli/evaluate.ts",
+    "all": "npm run gen && npm run analyze && npm run evaluate",
+    "test": "tsx scripts/unit-test.ts",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "solid-js": "^1.9.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vite-plugin-solid": "^2.11.6"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "esbuild@0.25.12": true
+  }
+}

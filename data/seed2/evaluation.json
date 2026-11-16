@@ -1,0 +1,82 @@
+{
+  "totalScenarios": 12,
+  "totalAlerts": 84,
+  "detectedScenarios": 12,
+  "scenarioRecall": 1,
+  "perDetector": {
+    "impossible_travel": {
+      "detector": "impossible_travel",
+      "truePositives": 3,
+      "correlatedTruePositives": 5,
+      "falsePositives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falseAlertsPer10kBenign": 0,
+      "matchedScenarioIds": [
+        "travel-0",
+        "travel-1",
+        "travel-2"
+      ],
+      "unmatchedAlerts": []
+    },
+    "password_spray": {
+      "detector": "password_spray",
+      "truePositives": 3,
+      "correlatedTruePositives": 0,
+      "falsePositives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falseAlertsPer10kBenign": 0,
+      "matchedScenarioIds": [
+        "spray-0",
+        "spray-1",
+        "spray-2"
+      ],
+      "unmatchedAlerts": []
+    },
+    "brute_force": {
+      "detector": "brute_force",
+      "truePositives": 4,
+      "correlatedTruePositives": 12,
+      "falsePositives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falseAlertsPer10kBenign": 0,
+      "matchedScenarioIds": [
+        "brute-0",
+        "brute-1",
+        "brute-2"
+      ],
+      "unmatchedAlerts": []
+    },
+    "credential_stuffing": {
+      "detector": "credential_stuffing",
+      "truePositives": 47,
+      "correlatedTruePositives": 10,
+      "falsePositives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falseAlertsPer10kBenign": 0,
+      "matchedScenarioIds": [
+        "stuff-0",
+        "stuff-1",
+        "stuff-2"
+      ],
+      "unmatchedAlerts": []
+    }
+  },
+  "micro": {
+    "precision": 1,
+    "recall": 1,
+    "f1": 1
+  },
+  "missedScenarios": []
+}

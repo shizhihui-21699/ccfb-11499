@@ -1,0 +1,102 @@
+{
+  "totalScenarios": 32,
+  "totalAlerts": 241,
+  "detectedScenarios": 32,
+  "scenarioRecall": 1,
+  "perDetector": {
+    "impossible_travel": {
+      "detector": "impossible_travel",
+      "truePositives": 16,
+      "correlatedTruePositives": 32,
+      "falsePositives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falseAlertsPer10kBenign": 0,
+      "matchedScenarioIds": [
+        "travel-0",
+        "travel-1",
+        "travel-2",
+        "travel-3",
+        "travel-4",
+        "travel-5",
+        "travel-6",
+        "travel-7"
+      ],
+      "unmatchedAlerts": []
+    },
+    "password_spray": {
+      "detector": "password_spray",
+      "truePositives": 8,
+      "correlatedTruePositives": 0,
+      "falsePositives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falseAlertsPer10kBenign": 0,
+      "matchedScenarioIds": [
+        "spray-0",
+        "spray-1",
+        "spray-2",
+        "spray-3",
+        "spray-4",
+        "spray-5",
+        "spray-6",
+        "spray-7"
+      ],
+      "unmatchedAlerts": []
+    },
+    "brute_force": {
+      "detector": "brute_force",
+      "truePositives": 9,
+      "correlatedTruePositives": 33,
+      "falsePositives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falseAlertsPer10kBenign": 0,
+      "matchedScenarioIds": [
+        "brute-0",
+        "brute-1",
+        "brute-2",
+        "brute-3",
+        "brute-4",
+        "brute-5",
+        "brute-6",
+        "brute-7"
+      ],
+      "unmatchedAlerts": []
+    },
+    "credential_stuffing": {
+      "detector": "credential_stuffing",
+      "truePositives": 113,
+      "correlatedTruePositives": 30,
+      "falsePositives": 0,
+      "falseNegatives": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1,
+      "falseAlertsPer10kBenign": 0,
+      "matchedScenarioIds": [
+        "stuff-0",
+        "stuff-1",
+        "stuff-2",
+        "stuff-3",
+        "stuff-4",
+        "stuff-5",
+        "stuff-6",
+        "stuff-7"
+      ],
+      "unmatchedAlerts": []
+    }
+  },
+  "micro": {
+    "precision": 1,
+    "recall": 1,
+    "f1": 1
+  },
+  "missedScenarios": []
+}

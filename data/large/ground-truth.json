@@ -1,0 +1,995 @@
+{
+  "preset": {
+    "users": 10000,
+    "benignEvents": 800000,
+    "attacksPerType": 8,
+    "seed": 20261116
+  },
+  "scenarios": [
+    {
+      "scenarioId": "spray-0",
+      "attackType": "password_spray",
+      "startTs": 1794831900000,
+      "endTs": 1794834248868,
+      "users": [
+        "user07899",
+        "user00612",
+        "user02826",
+        "user09843",
+        "user02237",
+        "user09064",
+        "user07943",
+        "user08459",
+        "user01006",
+        "user00387",
+        "user04555",
+        "user00292",
+        "user07043",
+        "user05162",
+        "user05941",
+        "user01333",
+        "user04083",
+        "user06155",
+        "user08157",
+        "user05176",
+        "user05573",
+        "user06838",
+        "user01666",
+        "user03662",
+        "user06187",
+        "user03030",
+        "user07209",
+        "user06668",
+        "user08945",
+        "user01377"
+      ],
+      "ips": [
+        "0.0.0.37"
+      ],
+      "description": "攻击 IP 0.0.0.37(约翰内斯堡) 对 30 个账号低频喷洒"
+    },
+    {
+      "scenarioId": "brute-0",
+      "attackType": "brute_force",
+      "startTs": 1794838740000,
+      "endTs": 1794840895288,
+      "users": [
+        "user00821"
+      ],
+      "ips": [
+        "0.6.26.150",
+        "0.6.57.138",
+        "0.6.88.112",
+        "0.6.119.127",
+        "0.6.150.121",
+        "0.6.181.70",
+        "0.6.212.62",
+        "0.6.243.27",
+        "0.7.18.29",
+        "0.7.49.3",
+        "0.7.80.38",
+        "0.7.110.227"
+      ],
+      "description": "12 个代理 IP 对账号 user00821 轮换暴力破解，47 次失败"
+    },
+    {
+      "scenarioId": "stuff-0",
+      "attackType": "credential_stuffing",
+      "startTs": 1794845640000,
+      "endTs": 1794849771230,
+      "users": [
+        "user05629",
+        "user02209",
+        "user08058",
+        "user01890",
+        "user04136",
+        "user08440",
+        "user00366",
+        "user06586",
+        "user05041",
+        "user00527",
+        "user07752",
+        "user08224",
+        "user01425"
+      ],
+      "ips": [
+        "0.4.147.245",
+        "0.4.178.225",
+        "0.4.209.239",
+        "0.4.240.216"
+      ],
+      "description": "撞库 IP 池对 13 个账号枚举，3 个账号被攻破成功登录"
+    },
+    {
+      "scenarioId": "travel-0",
+      "attackType": "impossible_travel",
+      "startTs": 1794854160000,
+      "endTs": 1794856080000,
+      "users": [
+        "user07224"
+      ],
+      "ips": [
+        "0.3.13.116",
+        "0.5.243.139"
+      ],
+      "description": "user07224 32 分钟内从 伦敦 跳到 拉各斯"
+    },
+    {
+      "scenarioId": "spray-1",
+      "attackType": "password_spray",
+      "startTs": 1794838380000,
+      "endTs": 1794840786819,
+      "users": [
+        "user01219",
+        "user05714",
+        "user09737",
+        "user05555",
+        "user06896",
+        "user02385",
+        "user00063",
+        "user03740",
+        "user04689",
+        "user01876",
+        "user07299",
+        "user09840",
+        "user01078",
+        "user05676",
+        "user00929",
+        "user07243",
+        "user06792",
+        "user09264",
+        "user03097",
+        "user01735",
+        "user05653",
+        "user03677",
+        "user03033",
+        "user01089",
+        "user09929",
+        "user01107",
+        "user07746",
+        "user07739",
+        "user05872",
+        "user05968",
+        "user03554",
+        "user06000",
+        "user04059",
+        "user05804",
+        "user07232",
+        "user02117",
+        "user06707",
+        "user08375",
+        "user08614",
+        "user08430"
+      ],
+      "ips": [
+        "0.0.146.83"
+      ],
+      "description": "攻击 IP 0.0.146.83(洛杉矶) 对 40 个账号低频喷洒"
+    },
+    {
+      "scenarioId": "brute-1",
+      "attackType": "brute_force",
+      "startTs": 1794841500000,
+      "endTs": 1794843124833,
+      "users": [
+        "user00706"
+      ],
+      "ips": [
+        "0.2.22.188",
+        "0.2.53.196",
+        "0.2.84.154",
+        "0.2.115.126",
+        "0.2.146.178",
+        "0.2.177.94",
+        "0.2.208.84",
+        "0.2.239.59",
+        "0.3.14.55",
+        "0.6.99.158"
+      ],
+      "description": "10 个代理 IP 对账号 user00706 轮换暴力破解，36 次失败"
+    },
+    {
+      "scenarioId": "stuff-1",
+      "attackType": "credential_stuffing",
+      "startTs": 1794849060000,
+      "endTs": 1794854041650,
+      "users": [
+        "user05077",
+        "user07110",
+        "user05595",
+        "user09630",
+        "user00781",
+        "user02972",
+        "user07293",
+        "user08224",
+        "user05629",
+        "user08515",
+        "user00366",
+        "user04567",
+        "user02209",
+        "user01030",
+        "user05528",
+        "user05041"
+      ],
+      "ips": [
+        "0.6.189.57",
+        "0.6.220.52",
+        "0.2.144.141",
+        "0.7.26.20"
+      ],
+      "description": "撞库 IP 池对 16 个账号枚举，3 个账号被攻破成功登录"
+    },
+    {
+      "scenarioId": "travel-1",
+      "attackType": "impossible_travel",
+      "startTs": 1794856800000,
+      "endTs": 1794862080000,
+      "users": [
+        "user09469"
+      ],
+      "ips": [
+        "0.5.27.67",
+        "0.0.96.72"
+      ],
+      "description": "user09469 88 分钟内从 东京 跳到 新加坡"
+    },
+    {
+      "scenarioId": "spray-2",
+      "attackType": "password_spray",
+      "startTs": 1794846480000,
+      "endTs": 1794849571912,
+      "users": [
+        "user04759",
+        "user02795",
+        "user09193",
+        "user05262",
+        "user02758",
+        "user01068",
+        "user02975",
+        "user06402",
+        "user03244",
+        "user09454",
+        "user00492",
+        "user01505",
+        "user08503",
+        "user06779",
+        "user05205",
+        "user05088",
+        "user04723",
+        "user03057",
+        "user03609",
+        "user05269",
+        "user09449",
+        "user06234",
+        "user06507",
+        "user01408",
+        "user07865",
+        "user02375",
+        "user07997",
+        "user04907",
+        "user03806",
+        "user09160",
+        "user07199",
+        "user01256",
+        "user01695",
+        "user06097",
+        "user02247",
+        "user08058",
+        "user04395",
+        "user03617",
+        "user08608",
+        "user06988"
+      ],
+      "ips": [
+        "0.1.36.107"
+      ],
+      "description": "攻击 IP 0.1.36.107(墨西哥城) 对 40 个账号低频喷洒"
+    },
+    {
+      "scenarioId": "brute-2",
+      "attackType": "brute_force",
+      "startTs": 1794846000000,
+      "endTs": 1794847574257,
+      "users": [
+        "user01894"
+      ],
+      "ips": [
+        "0.5.179.244",
+        "0.5.210.242",
+        "0.5.241.245",
+        "0.6.16.213",
+        "0.6.47.178",
+        "0.6.78.174",
+        "0.6.109.171",
+        "0.6.140.127",
+        "0.6.171.136",
+        "0.2.95.215",
+        "0.6.233.78"
+      ],
+      "description": "11 个代理 IP 对账号 user01894 轮换暴力破解，33 次失败"
+    },
+    {
+      "scenarioId": "stuff-2",
+      "attackType": "credential_stuffing",
+      "startTs": 1794844860000,
+      "endTs": 1794848677526,
+      "users": [
+        "user07752",
+        "user05629",
+        "user09630",
+        "user02209",
+        "user09416",
+        "user05041",
+        "user01030",
+        "user02342",
+        "user01334",
+        "user00092",
+        "user00032",
+        "user07293"
+      ],
+      "ips": [
+        "0.1.69.98",
+        "0.1.100.98",
+        "0.1.131.78",
+        "0.1.162.66"
+      ],
+      "description": "撞库 IP 池对 12 个账号枚举，3 个账号被攻破成功登录"
+    },
+    {
+      "scenarioId": "travel-2",
+      "attackType": "impossible_travel",
+      "startTs": 1794860100000,
+      "endTs": 1794865500000,
+      "users": [
+        "user09449"
+      ],
+      "ips": [
+        "0.7.41.35",
+        "0.2.110.68"
+      ],
+      "description": "user09449 90 分钟内从 约翰内斯堡 跳到 莫斯科"
+    },
+    {
+      "scenarioId": "spray-3",
+      "attackType": "password_spray",
+      "startTs": 1794853200000,
+      "endTs": 1794855401620,
+      "users": [
+        "user08744",
+        "user01637",
+        "user00628",
+        "user05764",
+        "user00039",
+        "user09130",
+        "user06985",
+        "user01843",
+        "user07299",
+        "user06605",
+        "user09530",
+        "user09495",
+        "user02774",
+        "user06342",
+        "user02334",
+        "user01941",
+        "user00131",
+        "user02114",
+        "user06284",
+        "user03327",
+        "user09564",
+        "user09178",
+        "user07667",
+        "user04738",
+        "user06965",
+        "user03022",
+        "user09850",
+        "user09045",
+        "user07080",
+        "user07172",
+        "user07885"
+      ],
+      "ips": [
+        "0.1.182.60"
+      ],
+      "description": "攻击 IP 0.1.182.60(奥克兰) 对 31 个账号低频喷洒"
+    },
+    {
+      "scenarioId": "brute-3",
+      "attackType": "brute_force",
+      "startTs": 1794838260000,
+      "endTs": 1794840665507,
+      "users": [
+        "user02321"
+      ],
+      "ips": [
+        "0.1.176.27",
+        "0.1.207.31",
+        "0.1.237.240",
+        "0.2.13.24",
+        "0.2.43.206",
+        "0.2.74.195",
+        "0.2.105.176",
+        "0.2.136.157",
+        "0.2.167.161",
+        "0.2.198.122",
+        "0.2.229.142",
+        "0.3.4.123",
+        "0.3.35.78"
+      ],
+      "description": "13 个代理 IP 对账号 user02321 轮换暴力破解，49 次失败"
+    },
+    {
+      "scenarioId": "stuff-3",
+      "attackType": "credential_stuffing",
+      "startTs": 1794848460000,
+      "endTs": 1794851803704,
+      "users": [
+        "user06586",
+        "user01205",
+        "user09302",
+        "user05595",
+        "user08440",
+        "user06564",
+        "user05105",
+        "user07293",
+        "user04567",
+        "user07752"
+      ],
+      "ips": [
+        "0.3.110.191",
+        "0.3.141.152",
+        "0.3.172.137",
+        "0.3.203.129"
+      ],
+      "description": "撞库 IP 池对 10 个账号枚举，2 个账号被攻破成功登录"
+    },
+    {
+      "scenarioId": "travel-3",
+      "attackType": "impossible_travel",
+      "startTs": 1794864120000,
+      "endTs": 1794868080000,
+      "users": [
+        "user04136"
+      ],
+      "ips": [
+        "0.1.149.219",
+        "0.4.124.4"
+      ],
+      "description": "user04136 66 分钟内从 悉尼 跳到 圣保罗"
+    },
+    {
+      "scenarioId": "spray-4",
+      "attackType": "password_spray",
+      "startTs": 1794860340000,
+      "endTs": 1794862297140,
+      "users": [
+        "user05031",
+        "user09116",
+        "user03415",
+        "user01417",
+        "user07153",
+        "user08304",
+        "user02683",
+        "user08017",
+        "user03992",
+        "user08230",
+        "user07466",
+        "user01094",
+        "user02242",
+        "user05214",
+        "user06000",
+        "user00204",
+        "user00157",
+        "user01152",
+        "user03718",
+        "user06628",
+        "user05084",
+        "user06883",
+        "user08838",
+        "user01226",
+        "user08906",
+        "user08760",
+        "user06375",
+        "user06060",
+        "user01250",
+        "user09684"
+      ],
+      "ips": [
+        "0.5.126.229"
+      ],
+      "description": "攻击 IP 0.5.126.229(纽约) 对 30 个账号低频喷洒"
+    },
+    {
+      "scenarioId": "brute-4",
+      "attackType": "brute_force",
+      "startTs": 1794842040000,
+      "endTs": 1794843372051,
+      "users": [
+        "user05093"
+      ],
+      "ips": [
+        "0.5.77.142",
+        "0.5.108.98",
+        "0.5.139.88",
+        "0.5.170.38",
+        "0.1.94.120",
+        "0.5.232.17",
+        "0.6.7.36",
+        "0.6.37.229",
+        "0.6.68.218",
+        "0.6.99.204",
+        "0.6.130.201",
+        "0.6.161.148",
+        "0.6.192.150",
+        "0.6.223.129",
+        "0.6.254.101"
+      ],
+      "description": "15 个代理 IP 对账号 user05093 轮换暴力破解，30 次失败"
+    },
+    {
+      "scenarioId": "stuff-4",
+      "attackType": "credential_stuffing",
+      "startTs": 1794845580000,
+      "endTs": 1794849762478,
+      "users": [
+        "user00527",
+        "user00399",
+        "user07567",
+        "user07713",
+        "user05225",
+        "user08105",
+        "user08058",
+        "user02853",
+        "user04567",
+        "user08076",
+        "user02972",
+        "user09302",
+        "user07383",
+        "user07110"
+      ],
+      "ips": [
+        "0.5.151.241",
+        "0.5.183.72",
+        "0.5.213.222",
+        "0.5.244.194"
+      ],
+      "description": "撞库 IP 池对 14 个账号枚举，2 个账号被攻破成功登录"
+    },
+    {
+      "scenarioId": "travel-4",
+      "attackType": "impossible_travel",
+      "startTs": 1794854220000,
+      "endTs": 1794859080000,
+      "users": [
+        "user09575"
+      ],
+      "ips": [
+        "0.3.163.209",
+        "0.6.137.235"
+      ],
+      "description": "user09575 81 分钟内从 新加坡 跳到 开罗"
+    },
+    {
+      "scenarioId": "spray-5",
+      "attackType": "password_spray",
+      "startTs": 1794866400000,
+      "endTs": 1794868419966,
+      "users": [
+        "user03204",
+        "user08117",
+        "user07077",
+        "user09422",
+        "user02756",
+        "user07321",
+        "user05737",
+        "user04767",
+        "user04485",
+        "user00499",
+        "user06113",
+        "user01761",
+        "user07510",
+        "user07446",
+        "user08528",
+        "user04188",
+        "user08977",
+        "user00881",
+        "user09044",
+        "user04678",
+        "user08073",
+        "user06520",
+        "user00487",
+        "user06871",
+        "user08879",
+        "user03267",
+        "user00007",
+        "user02226",
+        "user04696"
+      ],
+      "ips": [
+        "0.2.218.90"
+      ],
+      "description": "攻击 IP 0.2.218.90(上海) 对 29 个账号低频喷洒"
+    },
+    {
+      "scenarioId": "brute-5",
+      "attackType": "brute_force",
+      "startTs": 1794845400000,
+      "endTs": 1794847451901,
+      "users": [
+        "user05646"
+      ],
+      "ips": [
+        "0.1.73.115",
+        "0.1.104.97",
+        "0.1.135.96",
+        "0.1.166.87",
+        "0.1.197.46",
+        "0.1.228.27",
+        "0.2.3.30",
+        "0.2.34.17",
+        "0.2.64.235",
+        "0.2.95.222",
+        "0.2.126.198",
+        "0.2.157.199"
+      ],
+      "description": "12 个代理 IP 对账号 user05646 轮换暴力破解，50 次失败"
+    },
+    {
+      "scenarioId": "stuff-5",
+      "attackType": "credential_stuffing",
+      "startTs": 1794848580000,
+      "endTs": 1794853515803,
+      "users": [
+        "user06465",
+        "user08440",
+        "user02209",
+        "user09302",
+        "user02479",
+        "user09449",
+        "user02686",
+        "user00781",
+        "user03513",
+        "user02782",
+        "user07383",
+        "user07774",
+        "user00092",
+        "user03471",
+        "user06938",
+        "user01030"
+      ],
+      "ips": [
+        "0.0.32.22",
+        "0.0.63.8",
+        "0.0.93.233",
+        "0.3.179.130"
+      ],
+      "description": "撞库 IP 池对 16 个账号枚举，2 个账号被攻破成功登录"
+    },
+    {
+      "scenarioId": "travel-5",
+      "attackType": "impossible_travel",
+      "startTs": 1794855600000,
+      "endTs": 1794860760000,
+      "users": [
+        "user01334"
+      ],
+      "ips": [
+        "0.5.177.154",
+        "0.0.246.175"
+      ],
+      "description": "user01334 86 分钟内从 约翰内斯堡 跳到 首尔"
+    },
+    {
+      "scenarioId": "spray-6",
+      "attackType": "password_spray",
+      "startTs": 1794873840000,
+      "endTs": 1794876604082,
+      "users": [
+        "user04478",
+        "user07081",
+        "user07030",
+        "user00403",
+        "user01082",
+        "user07567",
+        "user00938",
+        "user08365",
+        "user09614",
+        "user04188",
+        "user05692",
+        "user02081",
+        "user04229",
+        "user01902",
+        "user07031",
+        "user01043",
+        "user04355",
+        "user05622",
+        "user07356",
+        "user00852",
+        "user08336",
+        "user02385",
+        "user02142",
+        "user05438",
+        "user02272",
+        "user03018",
+        "user03032",
+        "user08151",
+        "user08429",
+        "user09975",
+        "user03157",
+        "user01153",
+        "user06333",
+        "user06801",
+        "user00283",
+        "user09651"
+      ],
+      "ips": [
+        "0.6.162.236"
+      ],
+      "description": "攻击 IP 0.6.162.236(奥克兰) 对 36 个账号低频喷洒"
+    },
+    {
+      "scenarioId": "brute-6",
+      "attackType": "brute_force",
+      "startTs": 1794838140000,
+      "endTs": 1794840639378,
+      "users": [
+        "user05145"
+      ],
+      "ips": [
+        "0.4.230.199",
+        "0.5.5.189",
+        "0.5.36.146",
+        "0.5.67.121",
+        "0.0.247.237",
+        "0.5.129.131",
+        "0.5.160.71",
+        "0.5.191.116",
+        "0.5.222.40",
+        "0.5.253.31",
+        "0.6.28.18",
+        "0.6.58.252",
+        "0.6.89.230"
+      ],
+      "description": "13 个代理 IP 对账号 user05145 轮换暴力破解，59 次失败"
+    },
+    {
+      "scenarioId": "stuff-6",
+      "attackType": "credential_stuffing",
+      "startTs": 1794844920000,
+      "endTs": 1794848382201,
+      "users": [
+        "user07567",
+        "user08105",
+        "user06465",
+        "user09302",
+        "user06938",
+        "user02209",
+        "user01030",
+        "user06428",
+        "user02479",
+        "user00399"
+      ],
+      "ips": [
+        "0.2.73.89",
+        "0.2.104.72",
+        "0.2.135.55",
+        "0.5.220.163"
+      ],
+      "description": "撞库 IP 池对 10 个账号枚举，2 个账号被攻破成功登录"
+    },
+    {
+      "scenarioId": "travel-6",
+      "attackType": "impossible_travel",
+      "startTs": 1794859800000,
+      "endTs": 1794862440000,
+      "users": [
+        "user00092"
+      ],
+      "ips": [
+        "0.0.30.77",
+        "0.3.4.159"
+      ],
+      "description": "user00092 44 分钟内从 伊斯坦布尔 跳到 约翰内斯堡"
+    },
+    {
+      "scenarioId": "spray-7",
+      "attackType": "password_spray",
+      "startTs": 1794880920000,
+      "endTs": 1794883491621,
+      "users": [
+        "user07438",
+        "user07714",
+        "user09847",
+        "user05474",
+        "user07412",
+        "user02602",
+        "user08815",
+        "user06225",
+        "user04652",
+        "user02358",
+        "user02908",
+        "user01278",
+        "user08011",
+        "user04801",
+        "user07072",
+        "user00148",
+        "user00570",
+        "user04946",
+        "user00497",
+        "user04483",
+        "user00272",
+        "user09948",
+        "user06710",
+        "user04389",
+        "user01814",
+        "user07995",
+        "user07196",
+        "user02508",
+        "user03941",
+        "user07345",
+        "user06859",
+        "user03804",
+        "user06796",
+        "user07312",
+        "user00522",
+        "user05165"
+      ],
+      "ips": [
+        "0.3.254.156"
+      ],
+      "description": "攻击 IP 0.3.254.156(多伦多) 对 36 个账号低频喷洒"
+    },
+    {
+      "scenarioId": "brute-7",
+      "attackType": "brute_force",
+      "startTs": 1794841740000,
+      "endTs": 1794843973420,
+      "users": [
+        "user01570"
+      ],
+      "ips": [
+        "0.0.226.234",
+        "0.1.1.186",
+        "0.1.32.178",
+        "0.1.63.176",
+        "0.1.94.142",
+        "0.1.125.122",
+        "0.1.156.116",
+        "0.1.187.117",
+        "0.1.218.85",
+        "0.1.249.96",
+        "0.2.24.54"
+      ],
+      "description": "11 个代理 IP 对账号 user01570 轮换暴力破解，49 次失败"
+    },
+    {
+      "scenarioId": "stuff-7",
+      "attackType": "credential_stuffing",
+      "startTs": 1794849420000,
+      "endTs": 1794852808029,
+      "users": [
+        "user09449",
+        "user01425",
+        "user09591",
+        "user08058",
+        "user02342",
+        "user00527",
+        "user06428",
+        "user06564",
+        "user08440",
+        "user07567",
+        "user00451",
+        "user00032"
+      ],
+      "ips": [
+        "0.4.114.153",
+        "0.4.145.159",
+        "0.4.176.129",
+        "0.4.207.101"
+      ],
+      "description": "撞库 IP 池对 12 个账号枚举，2 个账号被攻破成功登录"
+    },
+    {
+      "scenarioId": "travel-7",
+      "attackType": "impossible_travel",
+      "startTs": 1794864960000,
+      "endTs": 1794867240000,
+      "users": [
+        "user05396"
+      ],
+      "ips": [
+        "0.2.44.63",
+        "0.5.18.129"
+      ],
+      "description": "user05396 38 分钟内从 迪拜 跳到 约翰内斯堡"
+    }
+  ],
+  "benignConfusers": [
+    {
+      "id": "conf-travel-0",
+      "description": "合法出差往返：多伦多->斯德哥尔摩->多伦多，单段飞行 6h（约 1055km/h）",
+      "users": [
+        "user09424"
+      ]
+    },
+    {
+      "id": "conf-travel-1",
+      "description": "合法出差往返：巴黎->法兰克福->巴黎，单段飞行 4h（约 119km/h）",
+      "users": [
+        "user04094"
+      ]
+    },
+    {
+      "id": "conf-travel-2",
+      "description": "合法出差往返：香港->悉尼->香港，单段飞行 6h（约 1229km/h）",
+      "users": [
+        "user09688"
+      ]
+    },
+    {
+      "id": "conf-travel-3",
+      "description": "合法出差往返：洛杉矶->东京->洛杉矶，单段飞行 6h（约 1470km/h）",
+      "users": [
+        "user00996"
+      ]
+    },
+    {
+      "id": "conf-travel-4",
+      "description": "合法出差往返：洛杉矶->香港->洛杉矶，单段飞行 6h（约 1942km/h）",
+      "users": [
+        "user08421"
+      ]
+    },
+    {
+      "id": "conf-travel-5",
+      "description": "合法出差往返：新加坡->开罗->新加坡，单段飞行 6h（约 1377km/h）",
+      "users": [
+        "user07092"
+      ]
+    },
+    {
+      "id": "conf-nat-0",
+      "description": "企业 NAT 私网出口：25 人共用 10.30.1.1，全部成功",
+      "users": [
+        "user09855",
+        "user04806",
+        "user03650",
+        "user04892",
+        "user01803",
+        "user06826",
+        "user06715",
+        "user03904",
+        "user06857",
+        "user05593",
+        "user00500",
+        "user05742",
+        "user00349",
+        "user04366",
+        "user05994",
+        "user00009",
+        "user08517",
+        "user05887",
+        "user02784",
+        "user02289",
+        "user02689",
+        "user06912",
+        "user00422",
+        "user09614",
+        "user00285"
+      ]
+    },
+    {
+      "id": "conf-retry-0",
+      "description": "单账号同 IP 连续失败 12 次后成功：来源单一，不应触发多IP暴力破解",
+      "users": [
+        "user00000"
+      ]
+    },
+    {
+      "id": "conf-drift-0",
+      "description": "同城移动网络漂移：20 分钟内同城市换 IP，距离低于最小阈值",
+      "users": [
+        "user00001"
+      ]
+    }
+  ]
+}
